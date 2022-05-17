@@ -4,8 +4,11 @@ button.onclick = function(){
     if(areaDesejada == 'Front-End'){
         alert('Interessante aprender ReactJS ou VueJS.');
     }
-    if(areaDesejada == 'Back-End'){
+    else if(areaDesejada == 'Back-End'){
         alert('Interessante aprender C# ou Java.');
+    }
+    else {
+        alert('Você não inseriu uma área valida!');
     }
     
     let independenteDaArea = alert('Independente da área, você pode se especializar na área escolhida ou tornar-se um desenvolvedor Full-Stack.');
